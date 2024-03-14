@@ -27,7 +27,7 @@ public class UsedProduct extends Product{
         return getName()
                + " (used) $ "
                + String.format("%.2f", getPrice())
-               + "(Manufacture date: "
+               + " (Manufacture date: "
                +  manufractureDate.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"))
                + ")";
     }
